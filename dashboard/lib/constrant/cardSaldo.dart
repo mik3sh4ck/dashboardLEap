@@ -11,13 +11,17 @@ class ReusableCardSaldo extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.all(20),
         decoration: BoxDecoration(
-            color: Colors.red,
+            color: Color(0xFFFFDE59),
             borderRadius: BorderRadius.all(Radius.circular(15.0))),
         child: Column(
           children: [
             Text("$Title"),
             SizedBox(
               height: 20.0,
+            ),
+            Divider(
+              thickness: 2,
+              color: Colors.black,
             ),
             Row(
               children: [
